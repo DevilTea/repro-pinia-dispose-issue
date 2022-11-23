@@ -2,7 +2,19 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/DevilTea/repro-pinia-dispose-issue)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Reproduce Steps
+
+1. Click the "Toggle" button on the left, the first time the store is installed.
+![](./screenshots/1.png)
+
+1. Click the "Increment" button on the right several times, and check the number of counts.
+![](./screenshots/2.png)
+
+1. Click the "Toggle" button on the left again, the store is disposed.
+![](./screenshots/3.png)
+
+1. Click the "Toggle" button on the left again, the store is installed, but its state is restored.
+![](./screenshots/4.png)
 
 ## Recommended IDE Setup
 
